@@ -1,0 +1,86 @@
+<html> 
+
+	<head><title>My First Website</title>
+	</head>
+	
+	<body bgcolor = "pink">
+	<p align = "center">
+		<font face = "Comic Sans MS" color = "blue" size= "+2">
+		<b>Pets-R-Us<br>
+		Registration Page
+		</b>
+		</font>
+	</p>
+	<br>
+	<p>
+		<marquee direction="right">
+		<font face = "Comic Sans MS" color = "blue">
+		Welcome to my Pets-R-Us Website!
+		</font>
+	</p>
+	<br>
+	
+	<img src = "C:\Users\Leslie\Desktop\WBDV112 IT2YA-2 FILES/shihtzu.jpg" width="300" height="250">
+	<img src = "C:\Users\Leslie\Desktop\WBDV112 IT2YA-2 FILES/husky.jpg" width="300" height="250">
+	<img src = "C:\Users\Leslie\Desktop\WBDV112 IT2YA-2 FILES/pomerian.jpg" width="300" height="250">
+	</marquee><br><br>
+	
+	<form action="summary.php" method="get">
+	<table border=1 rows=5 cols=2>
+		
+		<caption>Registration</caption>
+		<tr>
+			<td>Last Name</td><td><input type="text" name="lastname"></td>
+		</tr>
+		<tr>
+			<td>First Name</td><td><input type="text" name="firstname"></td>
+		</tr>
+		<tr>
+			<td>User Name</td><td><input type="text" name="username"></td>
+		</tr>
+		<tr>
+			<td>Password</td><td><input type="password" name="password"></td>
+		</tr>
+		<tr>
+			<td>
+				<select name="City">
+				<option value="Bulacan">Bulacan</option>
+				<option value="Valenzuela">Valenzuela</option>
+			</td>
+		</tr>
+		<tr>
+			<td>Civil Status</td>
+			<td>
+				<input type="radio" name="status" value="Single">Single
+				<input type="radio" name="status" value="Married">Married	
+				<input type="radio" name="status" value="Widow">Widow
+			</td>
+		</tr>
+		<tr>
+			<td>Interests</td>
+			<td>
+				<input type="checkbox" name="pet1" value="dogs">Dogs
+				<input type="checkbox" name="pet2" value="cats">Cats
+				<input type="checkbox" name="pet3" value="birds">Birds
+				<input type="checkbox" name="pet4" value="hamsters">Hamsters
+			</td>
+		</tr>
+		<tr>
+			<td>Address</td>
+			<td>
+				<textarea name="address" rows="3" cols="30">
+				</textarea>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input type="reset" name="clear" value="Clear">
+				<input type="submit" name="register" value="Register">
+			</td>
+		</tr>
+	</table>
+	</form>
+	</body>
+
+</html> 
+
